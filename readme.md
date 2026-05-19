@@ -5,7 +5,6 @@ This repository contains the code used for the experiments in the paper "Neural 
 Neural large neighborhood search (NLNS) integrates learned heuristics in a large neighborhood search framework to solve the capacitated vehicle routing problem (CVRP) and the split delivery vehicle routing problem (SDVRP). During the search for solutions, NLNS repeditatly "destroys" routing problem solutions and then "repairs" them using deep neural network models with attention mechanism. The models are trained via reinforcement learning. In contrast to many existing machine learning based approaches for solving routing problems, NLNS is able to profit from longer runtimes (> 60s) and can be applied to real world-sized routing problem instances.
 
 ### Instances 
-
 The XE instances used for the experiments in the paper can be found in the folder "instances". Each instance set consists of 20 instances that have similar properties. More instances with similar properties can be generated as described below.
 
 ### Paper
