@@ -1,0 +1,40 @@
+[INFO]Started
+[INFO]Call: main.py--modeeval_batch--model_pathtrained_models\cvrp\XE_1\model_incumbent_vrpRl13_C_XE_1_P_0.1_83390.pt--instance_pathinstances\zomato_chunked.pkl--devicecpu--lns_nb_cpus1--lns_batch_size25--lns_timelimit20--lns_max_iterations1000
+[INFO]Version: 0.3.0
+[INFO]PARAMETERS:
+[INFO]actor_lr: 0.0001
+[INFO]batch_size: 256
+[INFO]critic_hidden_size: 128
+[INFO]critic_lr: 0.0005
+[INFO]device: cpu
+[INFO]instance_blueprint: ALTR_20
+[INFO]instance_path: instances\zomato_chunked.pkl
+[INFO]lns_Z_param: 0.8
+[INFO]lns_adaptive_search: False
+[INFO]lns_batch_size: 25
+[INFO]lns_destruction: P
+[INFO]lns_destruction_p: 0.3
+[INFO]lns_max_iterations: 1000
+[INFO]lns_nb_cpus: 1
+[INFO]lns_reheating_nb: 5
+[INFO]lns_t_max: 1000
+[INFO]lns_t_min: 10
+[INFO]lns_timelimit: 20
+[INFO]lns_timelimit_validation: 5.0
+[INFO]max_grad_norm: 2.0
+[INFO]mode: eval_batch
+[INFO]model_path: trained_models\cvrp\XE_1\model_incumbent_vrpRl13_C_XE_1_P_0.1_83390.pt
+[INFO]nb_batches_training_set: 1500
+[INFO]nb_runs: 1
+[INFO]nb_train_batches: 250000
+[INFO]output_path: D:\AMM_Arc1\NLNS\runs\run_18.5.2026_24013
+[INFO]pointer_hidden_size: 128
+[INFO]round_distances: False
+[INFO]split_delivery: False
+[INFO]test_size: 2000
+[INFO]valid_size: 500
+[INFO]validation_seed: 0
+[INFO]----------
+[INFO]### Batch Search ###
+[INFO]Starting search
+[INFO]Test set costs: 0.141 Total Runtime (s): 22.2 Iterations: 11.0
