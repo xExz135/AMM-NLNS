@@ -2,7 +2,7 @@ import pickle
 import math
 import os
 
-CHUNK_SIZE = 128 # 32, 128, 256
+CHUNK_SIZE = 64 # 32, 64, 128, 256
 
 with open('instances\zomato.pkl','rb') as f:
     data = pickle.load(f)
@@ -27,7 +27,7 @@ for i in range(0, len(all_customers), CHUNK_SIZE):
     chunked.append((depot, locs, demands, capacity))
 
 os.makedirs('instances', exist_ok=True)
-with open('instances\zomato_chunked_128.pkl','wb') as f:
+with open('instances\zomato_chunked_64.pkl','wb') as f:
     pickle.dump(chunked, f)
 
 print('created', len(chunked), 'chunked instances, each up to', CHUNK_SIZE, 'customers')

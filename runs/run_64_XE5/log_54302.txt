@@ -1,0 +1,40 @@
+[INFO]Started
+[INFO]Call: C:\Users\shana\Documents\School\AMM-NLNS\main.py--modeeval_batch--devicecpu--model_pathC:\Users\shana\Documents\School\AMM-NLNS\trained_models\cvrp\XE_5--instance_pathC:\Users\shana\Documents\School\AMM-NLNS\instances\zomato_chunked_64.pkl--instance_blueprintXE_5--lns_nb_cpus1--lns_batch_size31
+[INFO]Version: 0.3.0
+[INFO]PARAMETERS:
+[INFO]actor_lr: 0.0001
+[INFO]batch_size: 256
+[INFO]critic_hidden_size: 128
+[INFO]critic_lr: 0.0005
+[INFO]device: cpu
+[INFO]instance_blueprint: XE_5
+[INFO]instance_path: C:\Users\shana\Documents\School\AMM-NLNS\instances\zomato_chunked_64.pkl
+[INFO]lns_Z_param: 0.8
+[INFO]lns_adaptive_search: False
+[INFO]lns_batch_size: 31
+[INFO]lns_destruction: P
+[INFO]lns_destruction_p: 0.3
+[INFO]lns_max_iterations: 50000
+[INFO]lns_nb_cpus: 1
+[INFO]lns_reheating_nb: 5
+[INFO]lns_t_max: 1000
+[INFO]lns_t_min: 10
+[INFO]lns_timelimit: 180
+[INFO]lns_timelimit_validation: 45.0
+[INFO]max_grad_norm: 2.0
+[INFO]mode: eval_batch
+[INFO]model_path: C:\Users\shana\Documents\School\AMM-NLNS\trained_models\cvrp\XE_5
+[INFO]nb_batches_training_set: 1500
+[INFO]nb_runs: 1
+[INFO]nb_train_batches: 250000
+[INFO]output_path: c:\Users\shana\Documents\School\AMM-NLNS\runs\run_20.5.2026_54302
+[INFO]pointer_hidden_size: 128
+[INFO]round_distances: False
+[INFO]split_delivery: False
+[INFO]test_size: 2000
+[INFO]valid_size: 500
+[INFO]validation_seed: 0
+[INFO]----------
+[INFO]### Batch Search ###
+[INFO]Starting search
+[INFO]Test set costs: 0.384 Total Runtime (s): 184.9 Iterations: 61.0

@@ -94,910 +94,181 @@ XE_7: 0.128
 
 Best model: altr_C_50 with mean cost 0.127
 
+CHUNK_SIZE = 64
+Running model altr_C_100...
+  Instances: 713, using lns_nb_cpus=1, lns_batch_size=31
+  OK: Mean/Test Costs = 0.385
+
+Running model altr_C_20...
+  Instances: 713, using lns_nb_cpus=1, lns_batch_size=31
+  OK: Mean/Test Costs = 0.384
+
+Running model altr_C_50...
+  Instances: 713, using lns_nb_cpus=1, lns_batch_size=31
+  OK: Mean/Test Costs = 0.381
+
+Running model XE_1...
+  Instances: 713, using lns_nb_cpus=1, lns_batch_size=31
+  OK: Mean/Test Costs = 0.387
+
+Running model XE_10...
+  Instances: 713, using lns_nb_cpus=1, lns_batch_size=31
+  FAILED: return code 1
+
+Running model XE_11...
+  Instances: 713, using lns_nb_cpus=1, lns_batch_size=31
+  FAILED: return code 1
+
+Running model XE_12...
+  Instances: 713, using lns_nb_cpus=1, lns_batch_size=31
+  FAILED: return code 1
+
+Running model XE_13...
+  Instances: 713, using lns_nb_cpus=1, lns_batch_size=31
+  FAILED: return code 1
+
+Running model XE_14...
+  Instances: 713, using lns_nb_cpus=1, lns_batch_size=31
+  FAILED: return code 1
+
+Running model XE_15...
+  Instances: 713, using lns_nb_cpus=1, lns_batch_size=31
+  FAILED: return code 1
+
+Running model XE_16...
+  Instances: 713, using lns_nb_cpus=1, lns_batch_size=31
+  FAILED: return code 1
+
+Running model XE_17...
+  Instances: 713, using lns_nb_cpus=1, lns_batch_size=31
+  FAILED: return code 1
+
+Running model XE_2...
+  Instances: 713, using lns_nb_cpus=1, lns_batch_size=31
+  OK: Mean/Test Costs = 0.388
+
+Running model XE_3...
+  Instances: 713, using lns_nb_cpus=1, lns_batch_size=31
+  OK: Mean/Test Costs = 0.386
+
+Running model XE_4...
+  Instances: 713, using lns_nb_cpus=1, lns_batch_size=31
+  OK: Mean/Test Costs = 0.384
+
+Running model XE_5...
+  Instances: 713, using lns_nb_cpus=1, lns_batch_size=31
+  OK: Mean/Test Costs = 0.384
+
+Running model XE_6...
+  Instances: 713, using lns_nb_cpus=1, lns_batch_size=31
+  OK: Mean/Test Costs = 0.387
+
+Running model XE_7...
+  Instances: 713, using lns_nb_cpus=1, lns_batch_size=31
+  OK: Mean/Test Costs = 0.385
+
+Running model XE_8...
+  Instances: 713, using lns_nb_cpus=1, lns_batch_size=31
+  FAILED: return code 1
+
+Running model XE_9...
+  Instances: 713, using lns_nb_cpus=1, lns_batch_size=31
+  FAILED: return code 1
+
+Summary:
+altr_C_100: 0.385
+altr_C_20: 0.384
+altr_C_50: 0.381
+XE_1: 0.387
+XE_2: 0.388
+XE_3: 0.386
+XE_4: 0.384
+XE_5: 0.384
+XE_6: 0.387
+XE_7: 0.385
+
+Best model: altr_C_50 with mean cost 0.381
+
 CHUNK_SIZE = 128
 Running model altr_C_100...
   Instances: 357, using lns_nb_cpus=7, lns_batch_size=51
-  Generating plots for results: C:\Users\shana\Documents\School\AMM-NLNS\runs\run_20.5.2026_38015\search\results.txt
-Saved: C:\Users\shana\Documents\School\AMM-NLNS\runs\run_20.5.2026_38015\search\plots\cost_histogram.png C:\Users\shana\Documents\School\AMM-NLNS\runs\run_20.5.2026_38015\search\plots\cost_scatter.png C:\Users\shana\Documents\School\AMM-NLNS\runs\run_20.5.2026_38015\search\plots\cost_bar.png
-
   OK: Mean/Test Costs = 1.123
 
 Running model altr_C_20...
   Instances: 357, using lns_nb_cpus=7, lns_batch_size=51
-  Generating plots for results: C:\Users\shana\Documents\School\AMM-NLNS\runs\run_20.5.2026_65038\search\results.txt
-Saved: C:\Users\shana\Documents\School\AMM-NLNS\runs\run_20.5.2026_65038\search\plots\cost_histogram.png C:\Users\shana\Documents\School\AMM-NLNS\runs\run_20.5.2026_65038\search\plots\cost_scatter.png C:\Users\shana\Documents\School\AMM-NLNS\runs\run_20.5.2026_65038\search\plots\cost_bar.png
-
   OK: Mean/Test Costs = 1.135
 
 Running model altr_C_50...
   Instances: 357, using lns_nb_cpus=7, lns_batch_size=51
-  Generating plots for results: C:\Users\shana\Documents\School\AMM-NLNS\runs\run_20.5.2026_25435\search\results.txt
-Saved: C:\Users\shana\Documents\School\AMM-NLNS\runs\run_20.5.2026_25435\search\plots\cost_histogram.png C:\Users\shana\Documents\School\AMM-NLNS\runs\run_20.5.2026_25435\search\plots\cost_scatter.png C:\Users\shana\Documents\School\AMM-NLNS\runs\run_20.5.2026_25435\search\plots\cost_bar.png
-
   OK: Mean/Test Costs = 1.118
+
 Running model XE_1...
   Instances: 357, using lns_nb_cpus=7, lns_batch_size=51
-  Generating plots for results: C:\Users\shana\Documents\School\AMM-NLNS\runs\run_20.5.2026_62301\search\results.txt
-Saved: C:\Users\shana\Documents\School\AMM-NLNS\runs\run_20.5.2026_62301\search\plots\cost_histogram.png C:\Users\shana\Documents\School\AMM-NLNS\runs\run_20.5.2026_62301\search\plots\cost_scatter.png C:\Users\shana\Documents\School\AMM-NLNS\runs\run_20.5.2026_62301\search\plots\cost_bar.png
-
   OK: Mean/Test Costs = 1.129
+
 Running model XE_10...
   Instances: 357, using lns_nb_cpus=7, lns_batch_size=51
   FAILED: return code 1
-Started
-Call: C:\Users\shana\Documents\School\AMM-NLNS\main.py--modeeval_batch--devicecpu--model_pathC:\Users\shana\Documents\School\AMM-NLNS\trained_models\cvrp\XE_10--instance_pathC:\Users\shana\Documents\School\AMM-NLNS\instances\zomato_chunked_128.pkl--lns_nb_cpus7--lns_batch_size51
-Version: 0.3.0
-PARAMETERS:
-actor_lr: 0.0001
-batch_size: 256
-critic_hidden_size: 128
-critic_lr: 0.0005
-device: cpu
-instance_blueprint: ALTR_20
-instance_path: C:\Users\shana\Documents\School\AMM-NLNS\instances\zomato_chunked_128.pkl
-lns_Z_param: 0.8
-lns_adaptive_search: False
-lns_batch_size: 51
-lns_destruction: P
-lns_destruction_p: 0.3
-lns_max_iterations: 50000
-lns_nb_cpus: 7
-lns_reheating_nb: 5
-lns_t_max: 1000
-lns_t_min: 10
-lns_timelimit: 180
-lns_timelimit_validation: 45.0
-max_grad_norm: 2.0
-mode: eval_batch
-model_path: C:\Users\shana\Documents\School\AMM-NLNS\trained_models\cvrp\XE_10
-nb_batches_training_set: 1500
-nb_runs: 1
-nb_train_batches: 250000
-output_path: c:\Users\shana\Documents\School\AMM-NLNS\runs\run_20.5.2026_46859
-pointer_hidden_size: 128
-round_distances: False
-split_delivery: False
-test_size: 2000
-valid_size: 500
-validation_seed: 0
-----------
-### Batch Search ###
-Starting search
-multiprocessing.pool.RemoteTraceback: 
-"""
-Traceback (most recent call last):
-  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\pool.py", line 125, in worker
-    result = (True, func(*args, **kwds))
-                    ^^^^^^^^^^^^^^^^^^^
-  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\pool.py", line 48, in mapstar
-    return list(map(*args))
-           ^^^^^^^^^^^^^^^^
-  File "C:\Users\shana\Documents\School\AMM-NLNS\search_batch.py", line 88, in _lns_batch_search_job
-    costs, nb_iterations = lns_batch_search(instances, config.lns_max_iterations, config.lns_timelimit, lns_operations,
-                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\shana\Documents\School\AMM-NLNS\search_batch.py", line 47, in lns_batch_search
-    repair.repair(instances[i * config.lns_batch_size: (i + 1) * config.lns_batch_size], actor,
-  File "C:\Users\shana\Documents\School\AMM-NLNS\repair.py", line 118, in repair
-    tour_idx, tour_logp = _actor_model_forward(actor, instances, static_input, dynamic_input, config, vehicle_capacity)
-                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\shana\Documents\School\AMM-NLNS\repair.py", line 24, in _actor_model_forward
-    origin_idx[i] = np.random.choice(instance.open_nn_input_idx, 1).item()
-                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "numpy\\random\\mtrand.pyx", line 970, in numpy.random.mtrand.RandomState.choice
-ValueError: 'a' cannot be empty unless no samples are taken
-"""
-
-The above exception was the direct cause of the following exception:
-
-Traceback (most recent call last):
-  File "C:\Users\shana\Documents\School\AMM-NLNS\main.py", line 65, in <module>
-    search.evaluate_batch_search(config, config.model_path)
-  File "C:\Users\shana\Documents\School\AMM-NLNS\search.py", line 62, in evaluate_batch_search
-    results = search_batch.lns_batch_search_mp(config, model_path)
-              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\shana\Documents\School\AMM-NLNS\search_batch.py", line 104, in lns_batch_search_mp
-    results = pool.map(
-              ^^^^^^^^^
-  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\pool.py", line 367, in map
-    return self._map_async(func, iterable, mapstar, chunksize).get()
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\pool.py", line 774, in get
-    raise self._value
-ValueError: 'a' cannot be empty unless no samples are taken
 
 Running model XE_11...
   Instances: 357, using lns_nb_cpus=7, lns_batch_size=51
   FAILED: return code 1
-Started
-Call: C:\Users\shana\Documents\School\AMM-NLNS\main.py--modeeval_batch--devicecpu--model_pathC:\Users\shana\Documents\School\AMM-NLNS\trained_models\cvrp\XE_11--instance_pathC:\Users\shana\Documents\School\AMM-NLNS\instances\zomato_chunked_128.pkl--lns_nb_cpus7--lns_batch_size51
-Version: 0.3.0
-PARAMETERS:
-actor_lr: 0.0001
-batch_size: 256
-critic_hidden_size: 128
-critic_lr: 0.0005
-device: cpu
-instance_blueprint: ALTR_20
-instance_path: C:\Users\shana\Documents\School\AMM-NLNS\instances\zomato_chunked_128.pkl
-lns_Z_param: 0.8
-lns_adaptive_search: False
-lns_batch_size: 51
-lns_destruction: P
-lns_destruction_p: 0.3
-lns_max_iterations: 50000
-lns_nb_cpus: 7
-lns_reheating_nb: 5
-lns_t_max: 1000
-lns_t_min: 10
-lns_timelimit: 180
-lns_timelimit_validation: 45.0
-max_grad_norm: 2.0
-mode: eval_batch
-model_path: C:\Users\shana\Documents\School\AMM-NLNS\trained_models\cvrp\XE_11
-nb_batches_training_set: 1500
-nb_runs: 1
-nb_train_batches: 250000
-output_path: c:\Users\shana\Documents\School\AMM-NLNS\runs\run_20.5.2026_86459
-pointer_hidden_size: 128
-round_distances: False
-split_delivery: False
-test_size: 2000
-valid_size: 500
-validation_seed: 0
-----------
-### Batch Search ###
-Starting search
-multiprocessing.pool.RemoteTraceback: 
-"""
-Traceback (most recent call last):
-  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\pool.py", line 125, in worker
-    result = (True, func(*args, **kwds))
-                    ^^^^^^^^^^^^^^^^^^^
-  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\pool.py", line 48, in mapstar
-    return list(map(*args))
-           ^^^^^^^^^^^^^^^^
-  File "C:\Users\shana\Documents\School\AMM-NLNS\search_batch.py", line 88, in _lns_batch_search_job
-    costs, nb_iterations = lns_batch_search(instances, config.lns_max_iterations, config.lns_timelimit, lns_operations,
-                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\shana\Documents\School\AMM-NLNS\search_batch.py", line 47, in lns_batch_search
-    repair.repair(instances[i * config.lns_batch_size: (i + 1) * config.lns_batch_size], actor,
-  File "C:\Users\shana\Documents\School\AMM-NLNS\repair.py", line 118, in repair
-    tour_idx, tour_logp = _actor_model_forward(actor, instances, static_input, dynamic_input, config, vehicle_capacity)
-                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\shana\Documents\School\AMM-NLNS\repair.py", line 24, in _actor_model_forward
-    origin_idx[i] = np.random.choice(instance.open_nn_input_idx, 1).item()
-                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "numpy\\random\\mtrand.pyx", line 970, in numpy.random.mtrand.RandomState.choice
-ValueError: 'a' cannot be empty unless no samples are taken
-"""
-
-The above exception was the direct cause of the following exception:
-
-Traceback (most recent call last):
-  File "C:\Users\shana\Documents\School\AMM-NLNS\main.py", line 65, in <module>
-    search.evaluate_batch_search(config, config.model_path)
-  File "C:\Users\shana\Documents\School\AMM-NLNS\search.py", line 62, in evaluate_batch_search
-    results = search_batch.lns_batch_search_mp(config, model_path)
-              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\shana\Documents\School\AMM-NLNS\search_batch.py", line 104, in lns_batch_search_mp
-    results = pool.map(
-              ^^^^^^^^^
-  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\pool.py", line 367, in map
-    return self._map_async(func, iterable, mapstar, chunksize).get()
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\pool.py", line 774, in get
-    raise self._value
-ValueError: 'a' cannot be empty unless no samples are taken
 
 Running model XE_12...
   Instances: 357, using lns_nb_cpus=7, lns_batch_size=51
   FAILED: return code 1
-Started
-Call: C:\Users\shana\Documents\School\AMM-NLNS\main.py--modeeval_batch--devicecpu--model_pathC:\Users\shana\Documents\School\AMM-NLNS\trained_models\cvrp\XE_12--instance_pathC:\Users\shana\Documents\School\AMM-NLNS\instances\zomato_chunked_128.pkl--lns_nb_cpus7--lns_batch_size51
-Version: 0.3.0
-PARAMETERS:
-actor_lr: 0.0001
-batch_size: 256
-critic_hidden_size: 128
-critic_lr: 0.0005
-device: cpu
-instance_blueprint: ALTR_20
-instance_path: C:\Users\shana\Documents\School\AMM-NLNS\instances\zomato_chunked_128.pkl
-lns_Z_param: 0.8
-lns_adaptive_search: False
-lns_batch_size: 51
-lns_destruction: P
-lns_destruction_p: 0.3
-lns_max_iterations: 50000
-lns_nb_cpus: 7
-lns_reheating_nb: 5
-lns_t_max: 1000
-lns_t_min: 10
-lns_timelimit: 180
-lns_timelimit_validation: 45.0
-max_grad_norm: 2.0
-mode: eval_batch
-model_path: C:\Users\shana\Documents\School\AMM-NLNS\trained_models\cvrp\XE_12
-nb_batches_training_set: 1500
-nb_runs: 1
-nb_train_batches: 250000
-output_path: c:\Users\shana\Documents\School\AMM-NLNS\runs\run_20.5.2026_72859
-pointer_hidden_size: 128
-round_distances: False
-split_delivery: False
-test_size: 2000
-valid_size: 500
-validation_seed: 0
-----------
-### Batch Search ###
-Starting search
-multiprocessing.pool.RemoteTraceback: 
-"""
-Traceback (most recent call last):
-  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\pool.py", line 125, in worker
-    result = (True, func(*args, **kwds))
-                    ^^^^^^^^^^^^^^^^^^^
-  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\pool.py", line 48, in mapstar
-    return list(map(*args))
-           ^^^^^^^^^^^^^^^^
-  File "C:\Users\shana\Documents\School\AMM-NLNS\search_batch.py", line 88, in _lns_batch_search_job
-    costs, nb_iterations = lns_batch_search(instances, config.lns_max_iterations, config.lns_timelimit, lns_operations,
-                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\shana\Documents\School\AMM-NLNS\search_batch.py", line 47, in lns_batch_search
-    repair.repair(instances[i * config.lns_batch_size: (i + 1) * config.lns_batch_size], actor,
-  File "C:\Users\shana\Documents\School\AMM-NLNS\repair.py", line 118, in repair
-    tour_idx, tour_logp = _actor_model_forward(actor, instances, static_input, dynamic_input, config, vehicle_capacity)
-                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\shana\Documents\School\AMM-NLNS\repair.py", line 24, in _actor_model_forward
-    origin_idx[i] = np.random.choice(instance.open_nn_input_idx, 1).item()
-                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "numpy\\random\\mtrand.pyx", line 970, in numpy.random.mtrand.RandomState.choice
-ValueError: 'a' cannot be empty unless no samples are taken
-"""
-
-The above exception was the direct cause of the following exception:
-
-Traceback (most recent call last):
-  File "C:\Users\shana\Documents\School\AMM-NLNS\main.py", line 65, in <module>
-    search.evaluate_batch_search(config, config.model_path)
-  File "C:\Users\shana\Documents\School\AMM-NLNS\search.py", line 62, in evaluate_batch_search
-    results = search_batch.lns_batch_search_mp(config, model_path)
-              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\shana\Documents\School\AMM-NLNS\search_batch.py", line 104, in lns_batch_search_mp
-    results = pool.map(
-              ^^^^^^^^^
-  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\pool.py", line 367, in map
-    return self._map_async(func, iterable, mapstar, chunksize).get()
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\pool.py", line 774, in get
-    raise self._value
-ValueError: 'a' cannot be empty unless no samples are taken
 
 Running model XE_13...
   Instances: 357, using lns_nb_cpus=7, lns_batch_size=51
   FAILED: return code 1
-Started
-Call: C:\Users\shana\Documents\School\AMM-NLNS\main.py--modeeval_batch--devicecpu--model_pathC:\Users\shana\Documents\School\AMM-NLNS\trained_models\cvrp\XE_13--instance_pathC:\Users\shana\Documents\School\AMM-NLNS\instances\zomato_chunked_128.pkl--lns_nb_cpus7--lns_batch_size51
-Version: 0.3.0
-PARAMETERS:
-actor_lr: 0.0001
-batch_size: 256
-critic_hidden_size: 128
-critic_lr: 0.0005
-device: cpu
-instance_blueprint: ALTR_20
-instance_path: C:\Users\shana\Documents\School\AMM-NLNS\instances\zomato_chunked_128.pkl
-lns_Z_param: 0.8
-lns_adaptive_search: False
-lns_batch_size: 51
-lns_destruction: P
-lns_destruction_p: 0.3
-lns_max_iterations: 50000
-lns_nb_cpus: 7
-lns_reheating_nb: 5
-lns_t_max: 1000
-lns_t_min: 10
-lns_timelimit: 180
-lns_timelimit_validation: 45.0
-max_grad_norm: 2.0
-mode: eval_batch
-model_path: C:\Users\shana\Documents\School\AMM-NLNS\trained_models\cvrp\XE_13
-nb_batches_training_set: 1500
-nb_runs: 1
-nb_train_batches: 250000
-output_path: c:\Users\shana\Documents\School\AMM-NLNS\runs\run_20.5.2026_10190
-pointer_hidden_size: 128
-round_distances: False
-split_delivery: False
-test_size: 2000
-valid_size: 500
-validation_seed: 0
-----------
-### Batch Search ###
-Starting search
-multiprocessing.pool.RemoteTraceback: 
-"""
-Traceback (most recent call last):
-  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\pool.py", line 125, in worker
-    result = (True, func(*args, **kwds))
-                    ^^^^^^^^^^^^^^^^^^^
-  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\pool.py", line 48, in mapstar
-    return list(map(*args))
-           ^^^^^^^^^^^^^^^^
-  File "C:\Users\shana\Documents\School\AMM-NLNS\search_batch.py", line 88, in _lns_batch_search_job
-    costs, nb_iterations = lns_batch_search(instances, config.lns_max_iterations, config.lns_timelimit, lns_operations,
-                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\shana\Documents\School\AMM-NLNS\search_batch.py", line 47, in lns_batch_search
-    repair.repair(instances[i * config.lns_batch_size: (i + 1) * config.lns_batch_size], actor,
-  File "C:\Users\shana\Documents\School\AMM-NLNS\repair.py", line 118, in repair
-    tour_idx, tour_logp = _actor_model_forward(actor, instances, static_input, dynamic_input, config, vehicle_capacity)
-                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\shana\Documents\School\AMM-NLNS\repair.py", line 24, in _actor_model_forward
-    origin_idx[i] = np.random.choice(instance.open_nn_input_idx, 1).item()
-                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "numpy\\random\\mtrand.pyx", line 970, in numpy.random.mtrand.RandomState.choice
-ValueError: 'a' cannot be empty unless no samples are taken
-"""
-
-The above exception was the direct cause of the following exception:
-
-Traceback (most recent call last):
-  File "C:\Users\shana\Documents\School\AMM-NLNS\main.py", line 65, in <module>
-    search.evaluate_batch_search(config, config.model_path)
-  File "C:\Users\shana\Documents\School\AMM-NLNS\search.py", line 62, in evaluate_batch_search
-    results = search_batch.lns_batch_search_mp(config, model_path)
-              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\shana\Documents\School\AMM-NLNS\search_batch.py", line 104, in lns_batch_search_mp
-    results = pool.map(
-              ^^^^^^^^^
-  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\pool.py", line 367, in map
-    return self._map_async(func, iterable, mapstar, chunksize).get()
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\pool.py", line 774, in get
-    raise self._value
-ValueError: 'a' cannot be empty unless no samples are taken
 
 Running model XE_14...
   Instances: 357, using lns_nb_cpus=7, lns_batch_size=51
   FAILED: return code 1
-Started
-Call: C:\Users\shana\Documents\School\AMM-NLNS\main.py--modeeval_batch--devicecpu--model_pathC:\Users\shana\Documents\School\AMM-NLNS\trained_models\cvrp\XE_14--instance_pathC:\Users\shana\Documents\School\AMM-NLNS\instances\zomato_chunked_128.pkl--lns_nb_cpus7--lns_batch_size51
-Version: 0.3.0
-PARAMETERS:
-actor_lr: 0.0001
-batch_size: 256
-critic_hidden_size: 128
-critic_lr: 0.0005
-device: cpu
-instance_blueprint: ALTR_20
-instance_path: C:\Users\shana\Documents\School\AMM-NLNS\instances\zomato_chunked_128.pkl
-lns_Z_param: 0.8
-lns_adaptive_search: False
-lns_batch_size: 51
-lns_destruction: P
-lns_destruction_p: 0.3
-lns_max_iterations: 50000
-lns_nb_cpus: 7
-lns_reheating_nb: 5
-lns_t_max: 1000
-lns_t_min: 10
-lns_timelimit: 180
-lns_timelimit_validation: 45.0
-max_grad_norm: 2.0
-mode: eval_batch
-model_path: C:\Users\shana\Documents\School\AMM-NLNS\trained_models\cvrp\XE_14
-nb_batches_training_set: 1500
-nb_runs: 1
-nb_train_batches: 250000
-output_path: c:\Users\shana\Documents\School\AMM-NLNS\runs\run_20.5.2026_46388
-pointer_hidden_size: 128
-round_distances: False
-split_delivery: False
-test_size: 2000
-valid_size: 500
-validation_seed: 0
-----------
-### Batch Search ###
-Starting search
-multiprocessing.pool.RemoteTraceback: 
-"""
-Traceback (most recent call last):
-  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\pool.py", line 125, in worker
-    result = (True, func(*args, **kwds))
-                    ^^^^^^^^^^^^^^^^^^^
-  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\pool.py", line 48, in mapstar
-    return list(map(*args))
-           ^^^^^^^^^^^^^^^^
-  File "C:\Users\shana\Documents\School\AMM-NLNS\search_batch.py", line 88, in _lns_batch_search_job
-    costs, nb_iterations = lns_batch_search(instances, config.lns_max_iterations, config.lns_timelimit, lns_operations,
-                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\shana\Documents\School\AMM-NLNS\search_batch.py", line 47, in lns_batch_search
-    repair.repair(instances[i * config.lns_batch_size: (i + 1) * config.lns_batch_size], actor,
-  File "C:\Users\shana\Documents\School\AMM-NLNS\repair.py", line 118, in repair
-    tour_idx, tour_logp = _actor_model_forward(actor, instances, static_input, dynamic_input, config, vehicle_capacity)
-                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\shana\Documents\School\AMM-NLNS\repair.py", line 24, in _actor_model_forward
-    origin_idx[i] = np.random.choice(instance.open_nn_input_idx, 1).item()
-                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "numpy\\random\\mtrand.pyx", line 970, in numpy.random.mtrand.RandomState.choice
-ValueError: 'a' cannot be empty unless no samples are taken
-"""
-
-The above exception was the direct cause of the following exception:
-
-Traceback (most recent call last):
-  File "C:\Users\shana\Documents\School\AMM-NLNS\main.py", line 65, in <module>
-    search.evaluate_batch_search(config, config.model_path)
-  File "C:\Users\shana\Documents\School\AMM-NLNS\search.py", line 62, in evaluate_batch_search
-    results = search_batch.lns_batch_search_mp(config, model_path)
-              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\shana\Documents\School\AMM-NLNS\search_batch.py", line 104, in lns_batch_search_mp
-    results = pool.map(
-              ^^^^^^^^^
-  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\pool.py", line 367, in map
-    return self._map_async(func, iterable, mapstar, chunksize).get()
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\pool.py", line 774, in get
-    raise self._value
-ValueError: 'a' cannot be empty unless no samples are taken
 
 Running model XE_15...
   Instances: 357, using lns_nb_cpus=7, lns_batch_size=51
   FAILED: return code 1
-Started
-Call: C:\Users\shana\Documents\School\AMM-NLNS\main.py--modeeval_batch--devicecpu--model_pathC:\Users\shana\Documents\School\AMM-NLNS\trained_models\cvrp\XE_15--instance_pathC:\Users\shana\Documents\School\AMM-NLNS\instances\zomato_chunked_128.pkl--lns_nb_cpus7--lns_batch_size51
-Version: 0.3.0
-PARAMETERS:
-actor_lr: 0.0001
-batch_size: 256
-critic_hidden_size: 128
-critic_lr: 0.0005
-device: cpu
-instance_blueprint: ALTR_20
-instance_path: C:\Users\shana\Documents\School\AMM-NLNS\instances\zomato_chunked_128.pkl
-lns_Z_param: 0.8
-lns_adaptive_search: False
-lns_batch_size: 51
-lns_destruction: P
-lns_destruction_p: 0.3
-lns_max_iterations: 50000
-lns_nb_cpus: 7
-lns_reheating_nb: 5
-lns_t_max: 1000
-lns_t_min: 10
-lns_timelimit: 180
-lns_timelimit_validation: 45.0
-max_grad_norm: 2.0
-mode: eval_batch
-model_path: C:\Users\shana\Documents\School\AMM-NLNS\trained_models\cvrp\XE_15
-nb_batches_training_set: 1500
-nb_runs: 1
-nb_train_batches: 250000
-output_path: c:\Users\shana\Documents\School\AMM-NLNS\runs\run_20.5.2026_37301
-pointer_hidden_size: 128
-round_distances: False
-split_delivery: False
-test_size: 2000
-valid_size: 500
-validation_seed: 0
-----------
-### Batch Search ###
-Starting search
-multiprocessing.pool.RemoteTraceback: 
-"""
-Traceback (most recent call last):
-  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\pool.py", line 125, in worker
-    result = (True, func(*args, **kwds))
-                    ^^^^^^^^^^^^^^^^^^^
-  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\pool.py", line 48, in mapstar
-    return list(map(*args))
-           ^^^^^^^^^^^^^^^^
-  File "C:\Users\shana\Documents\School\AMM-NLNS\search_batch.py", line 88, in _lns_batch_search_job
-    costs, nb_iterations = lns_batch_search(instances, config.lns_max_iterations, config.lns_timelimit, lns_operations,
-                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\shana\Documents\School\AMM-NLNS\search_batch.py", line 47, in lns_batch_search
-    repair.repair(instances[i * config.lns_batch_size: (i + 1) * config.lns_batch_size], actor,
-  File "C:\Users\shana\Documents\School\AMM-NLNS\repair.py", line 118, in repair
-    tour_idx, tour_logp = _actor_model_forward(actor, instances, static_input, dynamic_input, config, vehicle_capacity)
-                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\shana\Documents\School\AMM-NLNS\repair.py", line 24, in _actor_model_forward
-    origin_idx[i] = np.random.choice(instance.open_nn_input_idx, 1).item()
-                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "numpy\\random\\mtrand.pyx", line 970, in numpy.random.mtrand.RandomState.choice
-ValueError: 'a' cannot be empty unless no samples are taken
-"""
-
-The above exception was the direct cause of the following exception:
-
-Traceback (most recent call last):
-  File "C:\Users\shana\Documents\School\AMM-NLNS\main.py", line 65, in <module>
-    search.evaluate_batch_search(config, config.model_path)
-  File "C:\Users\shana\Documents\School\AMM-NLNS\search.py", line 62, in evaluate_batch_search
-    results = search_batch.lns_batch_search_mp(config, model_path)
-              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\shana\Documents\School\AMM-NLNS\search_batch.py", line 104, in lns_batch_search_mp
-    results = pool.map(
-              ^^^^^^^^^
-  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\pool.py", line 367, in map
-    return self._map_async(func, iterable, mapstar, chunksize).get()
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\pool.py", line 774, in get
-    raise self._value
-ValueError: 'a' cannot be empty unless no samples are taken
 
 Running model XE_16...
   Instances: 357, using lns_nb_cpus=7, lns_batch_size=51
   FAILED: return code 1
-Started
-Call: C:\Users\shana\Documents\School\AMM-NLNS\main.py--modeeval_batch--devicecpu--model_pathC:\Users\shana\Documents\School\AMM-NLNS\trained_models\cvrp\XE_16--instance_pathC:\Users\shana\Documents\School\AMM-NLNS\instances\zomato_chunked_128.pkl--lns_nb_cpus7--lns_batch_size51
-Version: 0.3.0
-PARAMETERS:
-actor_lr: 0.0001
-batch_size: 256
-critic_hidden_size: 128
-critic_lr: 0.0005
-device: cpu
-instance_blueprint: ALTR_20
-instance_path: C:\Users\shana\Documents\School\AMM-NLNS\instances\zomato_chunked_128.pkl
-lns_Z_param: 0.8
-lns_adaptive_search: False
-lns_batch_size: 51
-lns_destruction: P
-lns_destruction_p: 0.3
-lns_max_iterations: 50000
-lns_nb_cpus: 7
-lns_reheating_nb: 5
-lns_t_max: 1000
-lns_t_min: 10
-lns_timelimit: 180
-lns_timelimit_validation: 45.0
-max_grad_norm: 2.0
-mode: eval_batch
-model_path: C:\Users\shana\Documents\School\AMM-NLNS\trained_models\cvrp\XE_16
-nb_batches_training_set: 1500
-nb_runs: 1
-nb_train_batches: 250000
-output_path: c:\Users\shana\Documents\School\AMM-NLNS\runs\run_20.5.2026_37840
-pointer_hidden_size: 128
-round_distances: False
-split_delivery: False
-test_size: 2000
-valid_size: 500
-validation_seed: 0
-----------
-### Batch Search ###
-Starting search
-multiprocessing.pool.RemoteTraceback: 
-"""
-Traceback (most recent call last):
-  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\pool.py", line 125, in worker
-    result = (True, func(*args, **kwds))
-                    ^^^^^^^^^^^^^^^^^^^
-  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\pool.py", line 48, in mapstar
-    return list(map(*args))
-           ^^^^^^^^^^^^^^^^
-  File "C:\Users\shana\Documents\School\AMM-NLNS\search_batch.py", line 88, in _lns_batch_search_job
-    costs, nb_iterations = lns_batch_search(instances, config.lns_max_iterations, config.lns_timelimit, lns_operations,
-                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\shana\Documents\School\AMM-NLNS\search_batch.py", line 47, in lns_batch_search
-    repair.repair(instances[i * config.lns_batch_size: (i + 1) * config.lns_batch_size], actor,
-  File "C:\Users\shana\Documents\School\AMM-NLNS\repair.py", line 118, in repair
-    tour_idx, tour_logp = _actor_model_forward(actor, instances, static_input, dynamic_input, config, vehicle_capacity)
-                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\shana\Documents\School\AMM-NLNS\repair.py", line 24, in _actor_model_forward
-    origin_idx[i] = np.random.choice(instance.open_nn_input_idx, 1).item()
-                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "numpy\\random\\mtrand.pyx", line 970, in numpy.random.mtrand.RandomState.choice
-ValueError: 'a' cannot be empty unless no samples are taken
-"""
-
-The above exception was the direct cause of the following exception:
-
-Traceback (most recent call last):
-  File "C:\Users\shana\Documents\School\AMM-NLNS\main.py", line 65, in <module>
-    search.evaluate_batch_search(config, config.model_path)
-  File "C:\Users\shana\Documents\School\AMM-NLNS\search.py", line 62, in evaluate_batch_search
-    results = search_batch.lns_batch_search_mp(config, model_path)
-              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\shana\Documents\School\AMM-NLNS\search_batch.py", line 104, in lns_batch_search_mp
-    results = pool.map(
-              ^^^^^^^^^
-  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\pool.py", line 367, in map
-    return self._map_async(func, iterable, mapstar, chunksize).get()
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\pool.py", line 774, in get
-    raise self._value
-ValueError: 'a' cannot be empty unless no samples are taken
 
 Running model XE_17...
   Instances: 357, using lns_nb_cpus=7, lns_batch_size=51
   FAILED: return code 1
-Started
-Call: C:\Users\shana\Documents\School\AMM-NLNS\main.py--modeeval_batch--devicecpu--model_pathC:\Users\shana\Documents\School\AMM-NLNS\trained_models\cvrp\XE_17--instance_pathC:\Users\shana\Documents\School\AMM-NLNS\instances\zomato_chunked_128.pkl--lns_nb_cpus7--lns_batch_size51
-Version: 0.3.0
-PARAMETERS:
-actor_lr: 0.0001
-batch_size: 256
-critic_hidden_size: 128
-critic_lr: 0.0005
-device: cpu
-instance_blueprint: ALTR_20
-instance_path: C:\Users\shana\Documents\School\AMM-NLNS\instances\zomato_chunked_128.pkl
-lns_Z_param: 0.8
-lns_adaptive_search: False
-lns_batch_size: 51
-lns_destruction: P
-lns_destruction_p: 0.3
-lns_max_iterations: 50000
-lns_nb_cpus: 7
-lns_reheating_nb: 5
-lns_t_max: 1000
-lns_t_min: 10
-lns_timelimit: 180
-lns_timelimit_validation: 45.0
-max_grad_norm: 2.0
-mode: eval_batch
-model_path: C:\Users\shana\Documents\School\AMM-NLNS\trained_models\cvrp\XE_17
-nb_batches_training_set: 1500
-nb_runs: 1
-nb_train_batches: 250000
-output_path: c:\Users\shana\Documents\School\AMM-NLNS\runs\run_20.5.2026_26970
-pointer_hidden_size: 128
-round_distances: False
-split_delivery: False
-test_size: 2000
-valid_size: 500
-validation_seed: 0
-----------
-### Batch Search ###
-Starting search
-multiprocessing.pool.RemoteTraceback: 
-"""
-Traceback (most recent call last):
-  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\pool.py", line 125, in worker
-    result = (True, func(*args, **kwds))
-                    ^^^^^^^^^^^^^^^^^^^
-  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\pool.py", line 48, in mapstar
-    return list(map(*args))
-           ^^^^^^^^^^^^^^^^
-  File "C:\Users\shana\Documents\School\AMM-NLNS\search_batch.py", line 88, in _lns_batch_search_job
-    costs, nb_iterations = lns_batch_search(instances, config.lns_max_iterations, config.lns_timelimit, lns_operations,
-                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\shana\Documents\School\AMM-NLNS\search_batch.py", line 47, in lns_batch_search
-    repair.repair(instances[i * config.lns_batch_size: (i + 1) * config.lns_batch_size], actor,
-  File "C:\Users\shana\Documents\School\AMM-NLNS\repair.py", line 118, in repair
-    tour_idx, tour_logp = _actor_model_forward(actor, instances, static_input, dynamic_input, config, vehicle_capacity)
-                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\shana\Documents\School\AMM-NLNS\repair.py", line 24, in _actor_model_forward
-    origin_idx[i] = np.random.choice(instance.open_nn_input_idx, 1).item()
-                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "numpy\\random\\mtrand.pyx", line 970, in numpy.random.mtrand.RandomState.choice
-ValueError: 'a' cannot be empty unless no samples are taken
-"""
-
-The above exception was the direct cause of the following exception:
-
-Traceback (most recent call last):
-  File "C:\Users\shana\Documents\School\AMM-NLNS\main.py", line 65, in <module>
-    search.evaluate_batch_search(config, config.model_path)
-  File "C:\Users\shana\Documents\School\AMM-NLNS\search.py", line 62, in evaluate_batch_search
-    results = search_batch.lns_batch_search_mp(config, model_path)
-              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\shana\Documents\School\AMM-NLNS\search_batch.py", line 104, in lns_batch_search_mp
-    results = pool.map(
-              ^^^^^^^^^
-  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\pool.py", line 367, in map
-    return self._map_async(func, iterable, mapstar, chunksize).get()
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\pool.py", line 774, in get
-    raise self._value
-ValueError: 'a' cannot be empty unless no samples are taken
 
 Running model XE_2...
   Instances: 357, using lns_nb_cpus=7, lns_batch_size=51
-  Generating plots for results: C:\Users\shana\Documents\School\AMM-NLNS\runs\run_20.5.2026_41001\search\results.txt
-Saved: C:\Users\shana\Documents\School\AMM-NLNS\runs\run_20.5.2026_41001\search\plots\cost_histogram.png C:\Users\shana\Documents\School\AMM-NLNS\runs\run_20.5.2026_41001\search\plots\cost_scatter.png C:\Users\shana\Documents\School\AMM-NLNS\runs\run_20.5.2026_41001\search\plots\cost_bar.png
-
   OK: Mean/Test Costs = 1.15
+
 Running model XE_3...
   Instances: 357, using lns_nb_cpus=7, lns_batch_size=51
-  Generating plots for results: C:\Users\shana\Documents\School\AMM-NLNS\runs\run_20.5.2026_27201\search\results.txt
-Saved: C:\Users\shana\Documents\School\AMM-NLNS\runs\run_20.5.2026_27201\search\plots\cost_histogram.png C:\Users\shana\Documents\School\AMM-NLNS\runs\run_20.5.2026_27201\search\plots\cost_scatter.png C:\Users\shana\Documents\School\AMM-NLNS\runs\run_20.5.2026_27201\search\plots\cost_bar.png
-
   OK: Mean/Test Costs = 1.135
+
 Running model XE_4...
   Instances: 357, using lns_nb_cpus=7, lns_batch_size=51
-  Generating plots for results: C:\Users\shana\Documents\School\AMM-NLNS\runs\run_20.5.2026_72251\search\results.txt
-Saved: C:\Users\shana\Documents\School\AMM-NLNS\runs\run_20.5.2026_72251\search\plots\cost_histogram.png C:\Users\shana\Documents\School\AMM-NLNS\runs\run_20.5.2026_72251\search\plots\cost_scatter.png C:\Users\shana\Documents\School\AMM-NLNS\runs\run_20.5.2026_72251\search\plots\cost_bar.png
-
   OK: Mean/Test Costs = 1.144
+
 Running model XE_5...
   Instances: 357, using lns_nb_cpus=7, lns_batch_size=51
-  Generating plots for results: C:\Users\shana\Documents\School\AMM-NLNS\runs\run_20.5.2026_29517\search\results.txt
-Saved: C:\Users\shana\Documents\School\AMM-NLNS\runs\run_20.5.2026_29517\search\plots\cost_histogram.png C:\Users\shana\Documents\School\AMM-NLNS\runs\run_20.5.2026_29517\search\plots\cost_scatter.png C:\Users\shana\Documents\School\AMM-NLNS\runs\run_20.5.2026_29517\search\plots\cost_bar.png
-
   OK: Mean/Test Costs = 1.124
+
 Running model XE_6...
   Instances: 357, using lns_nb_cpus=7, lns_batch_size=51
-  Generating plots for results: C:\Users\shana\Documents\School\AMM-NLNS\runs\run_20.5.2026_76607\search\results.txt
-Saved: C:\Users\shana\Documents\School\AMM-NLNS\runs\run_20.5.2026_76607\search\plots\cost_histogram.png C:\Users\shana\Documents\School\AMM-NLNS\runs\run_20.5.2026_76607\search\plots\cost_scatter.png C:\Users\shana\Documents\School\AMM-NLNS\runs\run_20.5.2026_76607\search\plots\cost_bar.png
-
   OK: Mean/Test Costs = 1.147
 
 Running model XE_7...
   Instances: 357, using lns_nb_cpus=7, lns_batch_size=51
-  Generating plots for results: C:\Users\shana\Documents\School\AMM-NLNS\runs\run_20.5.2026_88104\search\results.txt
-Saved: C:\Users\shana\Documents\School\AMM-NLNS\runs\run_20.5.2026_88104\search\plots\cost_histogram.png C:\Users\shana\Documents\School\AMM-NLNS\runs\run_20.5.2026_88104\search\plots\cost_scatter.png C:\Users\shana\Documents\School\AMM-NLNS\runs\run_20.5.2026_88104\search\plots\cost_bar.png
-
   OK: Mean/Test Costs = 1.145
+
 Running model XE_8...
   Instances: 357, using lns_nb_cpus=7, lns_batch_size=51
   FAILED: return code 1
-Started
-Call: C:\Users\shana\Documents\School\AMM-NLNS\main.py--modeeval_batch--devicecpu--model_pathC:\Users\shana\Documents\School\AMM-NLNS\trained_models\cvrp\XE_8--instance_pathC:\Users\shana\Documents\School\AMM-NLNS\instances\zomato_chunked_128.pkl--lns_nb_cpus7--lns_batch_size51
-Version: 0.3.0
-PARAMETERS:
-actor_lr: 0.0001
-batch_size: 256
-critic_hidden_size: 128
-critic_lr: 0.0005
-device: cpu
-instance_blueprint: ALTR_20
-instance_path: C:\Users\shana\Documents\School\AMM-NLNS\instances\zomato_chunked_128.pkl
-lns_Z_param: 0.8
-lns_adaptive_search: False
-lns_batch_size: 51
-lns_destruction: P
-lns_destruction_p: 0.3
-lns_max_iterations: 50000
-lns_nb_cpus: 7
-lns_reheating_nb: 5
-lns_t_max: 1000
-lns_t_min: 10
-lns_timelimit: 180
-lns_timelimit_validation: 45.0
-max_grad_norm: 2.0
-mode: eval_batch
-model_path: C:\Users\shana\Documents\School\AMM-NLNS\trained_models\cvrp\XE_8
-nb_batches_training_set: 1500
-nb_runs: 1
-nb_train_batches: 250000
-output_path: c:\Users\shana\Documents\School\AMM-NLNS\runs\run_20.5.2026_45023
-pointer_hidden_size: 128
-round_distances: False
-split_delivery: False
-test_size: 2000
-valid_size: 500
-validation_seed: 0
-----------
-### Batch Search ###
-Starting search
-multiprocessing.pool.RemoteTraceback: 
-"""
-Traceback (most recent call last):
-  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\pool.py", line 125, in worker
-    result = (True, func(*args, **kwds))
-                    ^^^^^^^^^^^^^^^^^^^
-  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\pool.py", line 48, in mapstar
-    return list(map(*args))
-           ^^^^^^^^^^^^^^^^
-  File "C:\Users\shana\Documents\School\AMM-NLNS\search_batch.py", line 88, in _lns_batch_search_job
-    costs, nb_iterations = lns_batch_search(instances, config.lns_max_iterations, config.lns_timelimit, lns_operations,
-                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\shana\Documents\School\AMM-NLNS\search_batch.py", line 47, in lns_batch_search
-    repair.repair(instances[i * config.lns_batch_size: (i + 1) * config.lns_batch_size], actor,
-  File "C:\Users\shana\Documents\School\AMM-NLNS\repair.py", line 118, in repair
-    tour_idx, tour_logp = _actor_model_forward(actor, instances, static_input, dynamic_input, config, vehicle_capacity)
-                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\shana\Documents\School\AMM-NLNS\repair.py", line 24, in _actor_model_forward
-    origin_idx[i] = np.random.choice(instance.open_nn_input_idx, 1).item()
-                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "numpy\\random\\mtrand.pyx", line 970, in numpy.random.mtrand.RandomState.choice
-ValueError: 'a' cannot be empty unless no samples are taken
-"""
-
-The above exception was the direct cause of the following exception:
-
-Traceback (most recent call last):
-  File "C:\Users\shana\Documents\School\AMM-NLNS\main.py", line 65, in <module>
-    search.evaluate_batch_search(config, config.model_path)
-  File "C:\Users\shana\Documents\School\AMM-NLNS\search.py", line 62, in evaluate_batch_search
-    results = search_batch.lns_batch_search_mp(config, model_path)
-              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\shana\Documents\School\AMM-NLNS\search_batch.py", line 104, in lns_batch_search_mp
-    results = pool.map(
-              ^^^^^^^^^
-  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\pool.py", line 367, in map
-    return self._map_async(func, iterable, mapstar, chunksize).get()
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\pool.py", line 774, in get
-    raise self._value
-ValueError: 'a' cannot be empty unless no samples are taken
 
 Running model XE_9...
   Instances: 357, using lns_nb_cpus=7, lns_batch_size=51
   FAILED: return code 1
-Started
-Call: C:\Users\shana\Documents\School\AMM-NLNS\main.py--modeeval_batch--devicecpu--model_pathC:\Users\shana\Documents\School\AMM-NLNS\trained_models\cvrp\XE_9--instance_pathC:\Users\shana\Documents\School\AMM-NLNS\instances\zomato_chunked_128.pkl--lns_nb_cpus7--lns_batch_size51
-Version: 0.3.0
-PARAMETERS:
-actor_lr: 0.0001
-batch_size: 256
-critic_hidden_size: 128
-critic_lr: 0.0005
-device: cpu
-instance_blueprint: ALTR_20
-instance_path: C:\Users\shana\Documents\School\AMM-NLNS\instances\zomato_chunked_128.pkl
-lns_Z_param: 0.8
-lns_adaptive_search: False
-lns_batch_size: 51
-lns_destruction: P
-lns_destruction_p: 0.3
-lns_max_iterations: 50000
-lns_nb_cpus: 7
-lns_reheating_nb: 5
-lns_t_max: 1000
-lns_t_min: 10
-lns_timelimit: 180
-lns_timelimit_validation: 45.0
-max_grad_norm: 2.0
-mode: eval_batch
-model_path: C:\Users\shana\Documents\School\AMM-NLNS\trained_models\cvrp\XE_9
-nb_batches_training_set: 1500
-nb_runs: 1
-nb_train_batches: 250000
-output_path: c:\Users\shana\Documents\School\AMM-NLNS\runs\run_20.5.2026_22033
-pointer_hidden_size: 128
-round_distances: False
-split_delivery: False
-test_size: 2000
-valid_size: 500
-validation_seed: 0
-----------
-### Batch Search ###
-Starting search
-multiprocessing.pool.RemoteTraceback: 
-"""
-Traceback (most recent call last):
-  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\pool.py", line 125, in worker
-    result = (True, func(*args, **kwds))
-                    ^^^^^^^^^^^^^^^^^^^
-  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\pool.py", line 48, in mapstar
-    return list(map(*args))
-           ^^^^^^^^^^^^^^^^
-  File "C:\Users\shana\Documents\School\AMM-NLNS\search_batch.py", line 88, in _lns_batch_search_job
-    costs, nb_iterations = lns_batch_search(instances, config.lns_max_iterations, config.lns_timelimit, lns_operations,
-                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\shana\Documents\School\AMM-NLNS\search_batch.py", line 47, in lns_batch_search
-    repair.repair(instances[i * config.lns_batch_size: (i + 1) * config.lns_batch_size], actor,
-  File "C:\Users\shana\Documents\School\AMM-NLNS\repair.py", line 118, in repair
-    tour_idx, tour_logp = _actor_model_forward(actor, instances, static_input, dynamic_input, config, vehicle_capacity)
-                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\shana\Documents\School\AMM-NLNS\repair.py", line 24, in _actor_model_forward
-    origin_idx[i] = np.random.choice(instance.open_nn_input_idx, 1).item()
-                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "numpy\\random\\mtrand.pyx", line 970, in numpy.random.mtrand.RandomState.choice
-ValueError: 'a' cannot be empty unless no samples are taken
-"""
-
-The above exception was the direct cause of the following exception:
-
-Traceback (most recent call last):
-  File "C:\Users\shana\Documents\School\AMM-NLNS\main.py", line 65, in <module>
-    search.evaluate_batch_search(config, config.model_path)
-  File "C:\Users\shana\Documents\School\AMM-NLNS\search.py", line 62, in evaluate_batch_search
-    results = search_batch.lns_batch_search_mp(config, model_path)
-              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\shana\Documents\School\AMM-NLNS\search_batch.py", line 104, in lns_batch_search_mp
-    results = pool.map(
-              ^^^^^^^^^
-  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\pool.py", line 367, in map
-    return self._map_async(func, iterable, mapstar, chunksize).get()
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\multiprocessing\pool.py", line 774, in get
-    raise self._value
-ValueError: 'a' cannot be empty unless no samples are taken
-
 
 Summary:
 altr_C_100: 1.123
@@ -1014,3 +285,97 @@ XE_7: 1.145
 Best model: altr_C_50 with mean cost 1.118
 
 CHUNK_SIZE = 256
+
+Running model altr_C_100...
+  Instances: 179, using lns_nb_cpus=1, lns_batch_size=179
+  OK: Mean/Test Costs = 3.277
+
+Running model altr_C_20...
+  Instances: 179, using lns_nb_cpus=1, lns_batch_size=179
+  OK: Mean/Test Costs = 3.368
+
+Running model altr_C_50...
+  Instances: 179, using lns_nb_cpus=1, lns_batch_size=179
+  OK: Mean/Test Costs = 3.329
+
+Running model XE_1...
+  Instances: 179, using lns_nb_cpus=1, lns_batch_size=179
+  OK: Mean/Test Costs = 3.268
+
+Running model XE_10...
+  Instances: 179, using lns_nb_cpus=1, lns_batch_size=179
+  FAILED: return code 1
+
+Running model XE_11...
+  Instances: 179, using lns_nb_cpus=1, lns_batch_size=179
+  FAILED: return code 1
+
+Running model XE_12...
+  Instances: 179, using lns_nb_cpus=1, lns_batch_size=179
+  FAILED: return code 1
+
+Running model XE_13...
+  Instances: 179, using lns_nb_cpus=1, lns_batch_size=179
+  FAILED: return code 1
+
+Running model XE_14...
+  Instances: 179, using lns_nb_cpus=1, lns_batch_size=179
+  FAILED: return code 1
+
+Running model XE_15...
+  Instances: 179, using lns_nb_cpus=1, lns_batch_size=179
+  FAILED: return code 1
+
+Running model XE_16...
+  Instances: 179, using lns_nb_cpus=1, lns_batch_size=179
+  FAILED: return code 1
+
+Running model XE_17...
+  Instances: 179, using lns_nb_cpus=1, lns_batch_size=179
+  FAILED: return code 1
+
+Running model XE_2...
+  Instances: 179, using lns_nb_cpus=1, lns_batch_size=179
+  OK: Mean/Test Costs = 3.295
+
+Running model XE_3...
+  Instances: 179, using lns_nb_cpus=1, lns_batch_size=179
+  OK: Mean/Test Costs = 3.332
+
+Running model XE_4...
+  Instances: 179, using lns_nb_cpus=1, lns_batch_size=179
+  OK: Mean/Test Costs = 3.34
+
+Running model XE_5...
+  Instances: 179, using lns_nb_cpus=1, lns_batch_size=179
+  OK: Mean/Test Costs = 3.273
+
+Running model XE_6...
+  Instances: 179, using lns_nb_cpus=1, lns_batch_size=179
+  OK: Mean/Test Costs = 3.295
+
+Running model XE_7...
+  Instances: 179, using lns_nb_cpus=1, lns_batch_size=179
+  OK: Mean/Test Costs = 3.247
+
+Running model XE_8...
+  Instances: 179, using lns_nb_cpus=1, lns_batch_size=179
+  FAILED: return code 1
+
+Running model XE_9...
+  Instances: 179, using lns_nb_cpus=1, lns_batch_size=179
+  FAILED: return code 1
+
+Summary:
+altr_C_100: 3.277
+altr_C_20: 3.368
+altr_C_50: 3.329
+XE_1: 3.268
+XE_2: 3.295
+XE_3: 3.332
+XE_4: 3.34
+XE_5: 3.273
+XE_6: 3.295
+XE_7: 3.247
+
+Best model: XE_7 with mean cost 3.247
