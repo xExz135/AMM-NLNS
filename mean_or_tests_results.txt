@@ -1,0 +1,99 @@
+CHUNK_SIZE = 32
+
+Running model altr_C_100...
+  Instances: 1425, using lns_nb_cpus=5, lns_batch_size=285
+  OK: Mean/Test Costs = 0.128
+
+Running model altr_C_20...
+  Instances: 1425, using lns_nb_cpus=5, lns_batch_size=285
+  OK: Mean/Test Costs = 0.128
+
+Running model altr_C_50...
+  Instances: 1425, using lns_nb_cpus=5, lns_batch_size=285
+  OK: Mean/Test Costs = 0.127
+
+Running model XE_1...
+  Instances: 1425, using lns_nb_cpus=5, lns_batch_size=285
+  OK: Mean/Test Costs = 0.128
+
+Running model XE_2...
+  Instances: 1425, using lns_nb_cpus=5, lns_batch_size=285
+  OK: Mean/Test Costs = 0.13
+
+Running model XE_3...
+  Instances: 1425, using lns_nb_cpus=5, lns_batch_size=285
+  OK: Mean/Test Costs = 0.129
+
+Running model XE_4...
+  Instances: 1425, using lns_nb_cpus=5, lns_batch_size=285
+  OK: Mean/Test Costs = 0.128
+
+Running model XE_5...
+  Instances: 1425, using lns_nb_cpus=5, lns_batch_size=285
+  OK: Mean/Test Costs = 0.128
+
+unning model XE_6...
+  Instances: 1425, using lns_nb_cpus=5, lns_batch_size=285
+  OK: Mean/Test Costs = 0.128
+
+Running model XE_7...
+  Instances: 1425, using lns_nb_cpus=5, lns_batch_size=285
+  OK: Mean/Test Costs = 0.128
+
+Running model XE_8...
+  Instances: 1425, using lns_nb_cpus=5, lns_batch_size=285
+  FAILED: return code 1
+
+Running model XE_9...
+  Instances: 1425, using lns_nb_cpus=5, lns_batch_size=285
+  FAILED: return code 1
+
+Running model XE_10...
+  Instances: 1425, using lns_nb_cpus=5, lns_batch_size=285
+  FAILED: return code 1
+
+Running model XE_11...
+  Instances: 1425, using lns_nb_cpus=5, lns_batch_size=285
+  FAILED: return code 1
+
+Running model XE_12...
+  Instances: 1425, using lns_nb_cpus=5, lns_batch_size=285
+  FAILED: return code 1
+
+Running model XE_13...
+  Instances: 1425, using lns_nb_cpus=5, lns_batch_size=285
+  FAILED: return code 1
+
+Running model XE_14...
+  Instances: 1425, using lns_nb_cpus=5, lns_batch_size=285
+  FAILED: return code 1
+
+Running model XE_15...
+  Instances: 1425, using lns_nb_cpus=5, lns_batch_size=285
+  FAILED: return code 1
+
+Running model XE_16...
+  Instances: 1425, using lns_nb_cpus=5, lns_batch_size=285
+  FAILED: return code 1
+
+Running model XE_17...
+  Instances: 1425, using lns_nb_cpus=5, lns_batch_size=285
+  FAILED: return code 1
+
+Summary:
+altr_C_100: 0.128
+altr_C_20: 0.128
+altr_C_50: 0.127
+XE_1: 0.128
+XE_2: 0.13
+XE_3: 0.129
+XE_4: 0.128
+XE_5: 0.128
+XE_6: 0.128
+XE_7: 0.128
+
+Best model: altr_C_50 with mean cost 0.127
+
+CHUNK_SIZE = 128
+
+CHUNK_SIZE = 256

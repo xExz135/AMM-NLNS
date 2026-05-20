@@ -7,14 +7,31 @@ import pickle
 
 def load_results(path):
     try:
-        data = np.loadtxt(path, delimiter=',')
-        # if single row, ensure shape
+        data = np.loadtxt(path, delimiter=',', dtype=str)
         if data.ndim == 1:
             data = data.reshape(1, -1)
         return data
     except Exception as e:
         print('Failed to load results:', e)
         raise
+
+
+def interpret_results(data):
+    # Batch results: instance_id,cost
+    # Single-search results: name,cost,runtime
+    if data.shape[1] == 2:
+        ids = data[:, 0].astype(int)
+        costs = data[:, 1].astype(float)
+        labels = None
+        runtimes = None
+    elif data.shape[1] == 3:
+        labels = data[:, 0]
+        costs = data[:, 1].astype(float)
+        runtimes = data[:, 2].astype(float)
+        ids = np.arange(len(costs))
+    else:
+        raise ValueError('Unsupported result format with %d columns' % data.shape[1])
+    return ids, costs, labels, runtimes
 
 
 def plot_histogram(costs, outpath):
@@ -57,6 +74,21 @@ def plot_instance_map(instances_pkl, idx, outpath):
     plt.close()
 
 
+def plot_bar_costs(ids, costs, labels, outpath):
+    plt.figure(figsize=(10, 4))
+    if labels is not None:
+        plt.bar(ids, costs, color='C0')
+        plt.xticks(ids, labels, rotation=90, fontsize=8)
+    else:
+        plt.bar(ids, costs, color='C0')
+        plt.xlabel('Instance ID')
+    plt.ylabel('Cost')
+    plt.title('Costs')
+    plt.tight_layout()
+    plt.savefig(outpath)
+    plt.close()
+
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--results', required=True, help='Path to results.txt')
@@ -66,19 +98,19 @@ def main():
     args = parser.parse_args()
 
     results = load_results(args.results)
-    # results for batch: instance_id,cost
-    ids = results[:,0].astype(int)
-    costs = results[:,1].astype(float)
+    ids, costs, labels, runtimes = interpret_results(results)
 
     outdir = args.outdir or os.path.dirname(args.results)
     os.makedirs(outdir, exist_ok=True)
 
     hist_path = os.path.join(outdir, 'cost_histogram.png')
     scatter_path = os.path.join(outdir, 'cost_scatter.png')
+    bar_path = os.path.join(outdir, 'cost_bar.png')
 
     plot_histogram(costs, hist_path)
     plot_scatter(ids, costs, scatter_path)
-    print('Saved:', hist_path, scatter_path)
+    plot_bar_costs(ids, costs, labels, bar_path)
+    print('Saved:', hist_path, scatter_path, bar_path)
 
     if args.show_instance is not None:
         if args.instances is None:

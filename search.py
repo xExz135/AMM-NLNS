@@ -39,7 +39,8 @@ def load_operator_pairs(path, config):
 
     lns_operator_pairs = []
     for model_path in model_paths:
-        model_data = torch.load(model_path, config.device)
+        # Ensure tensors are mapped to the configured device (handles CPU-only machines)
+        model_data = torch.load(model_path, map_location=config.device)
 
         actor = VrpActorModel(config.device, hidden_size=config.pointer_hidden_size).to(
             config.device)

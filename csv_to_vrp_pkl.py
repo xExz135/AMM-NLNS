@@ -53,6 +53,10 @@ def normalize_coordinates(instances):
     return normalized
 
 
+def same_location(p1, p2, tol=1e-6):
+    return abs(p1[0] - p2[0]) < tol and abs(p1[1] - p2[1]) < tol
+
+
 def load_csv_instances(csv_path,
                        depot_lat_col='Restaurant_latitude',
                        depot_lon_col='Restaurant_longitude',
@@ -97,6 +101,10 @@ def load_csv_instances(csv_path,
             if cust_x is None or cust_y is None:
                 skipped += 1
                 continue
+            if same_location((cust_x, cust_y), (depot_x, depot_y)):
+                skipped += 1
+                continue
+
             demand = None
             if demand_col is not None and row.get(demand_col, '') != '':
                 demand = parse_int(row.get(demand_col))
@@ -105,7 +113,8 @@ def load_csv_instances(csv_path,
             if demand is None:
                 demand = default_demand
             if demand <= 0:
-                demand = default_demand
+                skipped += 1
+                continue
 
             locations.append([cust_x, cust_y])
             demands.append(demand)
@@ -167,7 +176,7 @@ def main():
         pickle.dump(instances, f)
 
     print(f"Saved {len(instances)} instances to {args.output}")
-    print(f"Skipped {skipped} rows with missing coordinates or invalid data")
+    print(f"Skipped {skipped} rows with missing or nonsensical data")
 
 
 if __name__ == '__main__':
