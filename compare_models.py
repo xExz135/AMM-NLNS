@@ -6,7 +6,7 @@ import pickle
 
 ROOT = Path(__file__).resolve().parent
 MODELS_ROOT = ROOT / "trained_models" / "cvrp"
-INSTANCE_PATH = ROOT / "instances" / "zomato_chunked_64.pkl" # 32, 64, 128, 256
+INSTANCE_PATH = ROOT / "instances" / "zomato_chunked_100.pkl" # 32, 64, 128, 256, 20, 50, 100
 
 if not MODELS_ROOT.exists():
     raise SystemExit(f"Models folder not found: {MODELS_ROOT}")

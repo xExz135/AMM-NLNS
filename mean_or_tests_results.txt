@@ -379,3 +379,36 @@ XE_6: 3.295
 XE_7: 3.247
 
 Best model: XE_7 with mean cost 3.247
+
+CHUNK_SIZE = 20
+Running model altr_C_100...
+  Instances: 2280, using lns_nb_cpus=10, lns_batch_size=228
+  FAILED: return code 1
+Running model altr_C_20...
+  Instances: 2280, using lns_nb_cpus=10, lns_batch_size=228
+  FAILED: return code 1
+Running model altr_C_50...
+  Instances: 2280, using lns_nb_cpus=10, lns_batch_size=228
+  FAILED: return code 1
+
+CHUNK_SIZE = 50
+Running model altr_C_20...
+  Instances: 912, using lns_nb_cpus=8, lns_batch_size=114
+  OK: Mean/Test Costs = 0.264
+Running model altr_C_50...
+  Instances: 912, using lns_nb_cpus=8, lns_batch_size=114
+  OK: Mean/Test Costs = 0.263
+Running model altr_C_100...
+  Instances: 912, using lns_nb_cpus=8, lns_batch_size=114
+  OK: Mean/Test Costs = 0.263
+
+CHUNK_SIZE = 100
+Running model altr_C_20...
+  Instances: 456, using lns_nb_cpus=8, lns_batch_size=57
+  OK: Mean/Test Costs = 0.77
+Running model altr_C_50...
+  Instances: 456, using lns_nb_cpus=8, lns_batch_size=57
+  OK: Mean/Test Costs = 0.763
+Running model altr_C_100...
+  Instances: 456, using lns_nb_cpus=8, lns_batch_size=57
+  OK: Mean/Test Costs = 0.76
