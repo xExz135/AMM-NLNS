@@ -1,5 +1,5 @@
 [INFO]Started
-[INFO]Call: C:\Users\shana\Documents\School\AMM-NLNS\main.py--modeeval_batch--devicecpu--model_pathC:\Users\shana\Documents\School\AMM-NLNS\trained_models\cvrp\altr_C_50--instance_pathC:\Users\shana\Documents\School\AMM-NLNS\instances\zomato_chunked.pkl--lns_nb_cpus5--lns_batch_size285
+[INFO]Call: C:\Users\shana\Documents\School\AMM-NLNS\main.py--modeeval_batch--devicecpu--model_pathC:\Users\shana\Documents\School\AMM-NLNS\trained_models\cvrp\altr_C_100--instance_pathC:\Users\shana\Documents\School\AMM-NLNS\instances\zomato_chunked.pkl--instance_blueprintaltr_C_100--lns_nb_cpus5--lns_batch_size285
 [INFO]Version: 0.3.0
 [INFO]PARAMETERS:
 [INFO]actor_lr: 0.0001
@@ -7,7 +7,7 @@
 [INFO]critic_hidden_size: 128
 [INFO]critic_lr: 0.0005
 [INFO]device: cpu
-[INFO]instance_blueprint: ALTR_20
+[INFO]instance_blueprint: altr_C_100
 [INFO]instance_path: C:\Users\shana\Documents\School\AMM-NLNS\instances\zomato_chunked.pkl
 [INFO]lns_Z_param: 0.8
 [INFO]lns_adaptive_search: False
@@ -23,11 +23,11 @@
 [INFO]lns_timelimit_validation: 45.0
 [INFO]max_grad_norm: 2.0
 [INFO]mode: eval_batch
-[INFO]model_path: C:\Users\shana\Documents\School\AMM-NLNS\trained_models\cvrp\altr_C_50
+[INFO]model_path: C:\Users\shana\Documents\School\AMM-NLNS\trained_models\cvrp\altr_C_100
 [INFO]nb_batches_training_set: 1500
 [INFO]nb_runs: 1
 [INFO]nb_train_batches: 250000
-[INFO]output_path: c:\Users\shana\Documents\School\AMM-NLNS\runs\run_20.5.2026_59194
+[INFO]output_path: c:\Users\shana\Documents\School\AMM-NLNS\runs\run_9.6.2026_67332
 [INFO]pointer_hidden_size: 128
 [INFO]round_distances: False
 [INFO]split_delivery: False
@@ -37,4 +37,4 @@
 [INFO]----------
 [INFO]### Batch Search ###
 [INFO]Starting search
-[INFO]Test set costs: 0.127 Total Runtime (s): 191.2 Iterations: 104.0
+[INFO]Test set costs: 0.127 Total Runtime (s): 189.4 Iterations: 129.0

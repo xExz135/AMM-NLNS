@@ -4,6 +4,7 @@ import repair
 import time
 import multiprocessing as mp
 import search
+import os
 from vrp.data_utils import create_dataset, read_instances_pkl
 
 EMA_ALPHA = 0.2
@@ -18,6 +19,7 @@ def lns_batch_search(instances, max_iterations, timelimit, operator_pairs, confi
         operator_pairs)  # Exponential moving average of avg. improvement in last iterations
 
     start_time = time.time()
+    conv_log = []
     for iteration_id in range(max_iterations):
 
         if time.time() - start_time > timelimit:
@@ -56,6 +58,8 @@ def lns_batch_search(instances, max_iterations, timelimit, operator_pairs, confi
                 instances[i].solution = solution_copies[i]
             else:
                 costs[i] = cost
+        
+        conv_log.append([iteration_id, np.mean(costs)])
 
         # If adaptive search is used, update performance scores
         if config.lns_adaptive_search:
@@ -66,12 +70,19 @@ def lns_batch_search(instances, max_iterations, timelimit, operator_pairs, confi
                         1 - EMA_ALPHA) + delta * EMA_ALPHA
            # print(performance_EMA)
 
+    
+    np.savetxt(
+            os.path.join(config.output_path, "search", "convergence.csv"),
+            conv_log,
+            delimiter=",",
+            header="iteration,cost"
+        )
+    
     # Verify solutions
     for instance in instances:
         instance.verify_solution(config)
 
     return costs, iteration_id
-
 
 def _lns_batch_search_job(args):
     (i, test_size, config, model_path) = args
